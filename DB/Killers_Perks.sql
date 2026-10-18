@@ -19,3 +19,9 @@ insert into Perks (name_es, name_en, description_es, description_en, role) VALUE
 ('Bestia de presa','Beast of prey','Cada vez que obtengas sed de sangre obtendrás indetectable por 40 segundos','Whenever  you gain bloodlust, gain undetectable for 40 seconds.','Killer'),
 ('Murmullo amargo','Bitter murmur',' Cuando se complete un generador, verás las auras de los survis en un radio de 20 metros de este durante 10 segundos.','Whenever a generator is completed, you see the auras of survivors within 20 metres of it for 10 seconds','Killer');
 
+insert into Perks (name_es, name_en, description_es, description_en, role) VALUES
+('Eco sangriento','Blood Echo','Cuando cuelgues a un superviviente, durante 30 segundos, todos los supervivientes heridos reciben: ','Whenever you hook a survivor, for 30 seconds, all injured survivors:','Killer'),
+('Guardián de sangre','Blood Warden','Cuando las puertas de salida esten abiertas, una vez por juicio, cuando cuelgues a un superviviente, ambas puertas quedan bloqueadas por 60 segundos ','When an exit gate is opened, once per trial, when you hook a survivor both exits are blocked for 60 seconds','Killer'),
+('Sabueso de sangre','Bloodhound','Los charcos de sangre son más brillantes y duran 4 segundos más','Pools of blood are brighter and last 4 seconds longer.','Killer'),
+('Fuerza Brutal','Brutal Strength','Rompes los palés y muros destruibles, rompes los generadores un 20% más rápido','You basic-break Pallets and breakable walls, and damage generators 20% faster','Killer'),
+('Salmuera','Call of Brine', 'Cuando dañes un generador, se revierte un 50% más rápido durante 90 segundos','Whenever you damage a generator, it regreses 50% faster for 90 seconds','Killer');
