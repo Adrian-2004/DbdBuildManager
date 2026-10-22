@@ -62,3 +62,5 @@ create table if not exists Side_Effects_Add_On(
     description_en varchar(255),
     add_on_id integer references Add_Ons(id)
 );
+
+ALTER TABLE Perks ADD COLUMN img_url VARCHAR(255) NOT NULL;
